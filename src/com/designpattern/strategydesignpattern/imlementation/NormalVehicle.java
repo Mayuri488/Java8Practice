@@ -7,7 +7,7 @@ import com.designpattern.strategydesignpattern.strategy.NormalDriveStrategy;
  * @author Mayuri
  */
 public class NormalVehicle extends Vehicle{
-    public NormalVehicle(DriveStrategy driveStrategy) {
+    public NormalVehicle() {
         super(new NormalDriveStrategy());
     }
 }

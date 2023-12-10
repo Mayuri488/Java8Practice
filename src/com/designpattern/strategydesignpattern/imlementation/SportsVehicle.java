@@ -7,7 +7,7 @@ import com.designpattern.strategydesignpattern.strategy.SportsDriveStrategy;
  * @author Mayuri
  */
 public class SportsVehicle extends Vehicle{
-    public SportsVehicle(DriveStrategy driveStrategy) {
+    public SportsVehicle() {
         super(new SportsDriveStrategy());
     }
 }
